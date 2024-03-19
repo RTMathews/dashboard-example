@@ -40,5 +40,19 @@
  }
 
  .header-bottom {
+   display: flex;
    grid-column: 2;
+ }
+
+ .header-bottom-greet {
+   padding-top: 40px;
+ }
+
+ .header-bottom-greet .p1{
+   font-weight: bold;
+ }
+
+ .header-bottom-greet .p2 {
+   font-weight: bold;
+   font-size: x-large;
  }
