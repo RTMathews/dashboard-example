@@ -14,3 +14,8 @@
     font-style: normal;
     display: grid;
 }
+
+.sidebar {
+    display: grid;
+    grid-column: 1;
+}
