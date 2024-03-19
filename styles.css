@@ -9,6 +9,11 @@
     grid-template-columns: 1fr 4fr;
  }
 
+ .dashboard {
+   grid-column: 1;
+   background-color: lightblue;
+ }
+
  .dashboard-main {
    font-size: x-large;
    font-weight: bold;
