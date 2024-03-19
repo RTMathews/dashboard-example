@@ -47,6 +47,12 @@
     align-items: center;
 }
 
+.search input[type="search"]{
+    border-radius: 100px;
+    width: 20rem;
+    background: lightblue;
+}
+
 .search img {
     width: 25px;
     height: 25px;
