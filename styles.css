@@ -8,3 +8,21 @@
     display: grid;
     grid-template-columns: 1fr 4fr;
  }
+
+ .header {
+   display: grid;
+   grid-column: 2;
+   grid-auto-flow: column;
+ }
+
+ .oldman {
+   border-radius: 50%;
+ }
+
+ .profile-name {
+   display: inline-block;
+ }
+
+ #search-bar {
+   height: 2rem;
+ }
