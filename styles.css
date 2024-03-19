@@ -1,19 +1,21 @@
 .container {
     display: grid;
     grid-template-columns: 1fr, 4fr;
-    grid-template-rows: repeat(auto-fit minmax(100px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .header-top {
     display: grid;
     grid-column: 2 / 3;
+    grid-auto-flow: column;
 }
 
 .header-bottom {
     display: grid;
     grid-column: 2 / 3;
-    
+    grid-auto-flow: column;
 }
 .sidebar {
     display: grid;
+    grid-row: 1;
 }
