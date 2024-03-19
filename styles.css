@@ -41,6 +41,10 @@
     grid-row: 1;
 }
 
+.sidebar-content {
+    display: grid;
+}
+
 .dashboard {
     grid-row: 1;
     width: 50px;
