@@ -11,18 +11,34 @@
 
  .header {
    display: grid;
+   grid-template-columns: 2fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
    grid-column: 2;
    grid-auto-flow: column;
  }
 
+ .bell {
+   grid-column: 2;
+   justify-self: end;
+ }
+
  .oldman {
    border-radius: 50%;
+   grid-column: 3;
+   justify-self: center;
  }
 
  .profile-name {
    display: inline-block;
+   grid-column: 4;
+   font-weight: bold;
  }
 
  #search-bar {
    height: 2rem;
+   border-radius: 20px;
+ }
+
+ .header-bottom {
+   grid-column: 2;
  }
