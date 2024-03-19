@@ -50,6 +50,7 @@
 .search input[type="search"]{
     border-radius: 100px;
     width: 20rem;
+    height: 2rem;
     background: lightblue;
 }
 
