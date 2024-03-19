@@ -42,3 +42,8 @@
  .header-bottom {
    grid-column: 2;
  }
+
+ .header-bottom p {
+   display: inline;
+   vertical-align: top;
+ }
