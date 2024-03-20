@@ -12,7 +12,8 @@
  .sidebar {
    display: grid;
    background-color: lightblue;
-   gap: 1rem;
+   height: calc(100vh - 16px);
+   width: 100%;
  }
 
  .dashboard-logo,
