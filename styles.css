@@ -91,6 +91,7 @@ body {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    margin-top: 4rem;
+   margin-right: 6rem;
 }
 
 .header-button {
@@ -100,4 +101,10 @@ body {
    font-size: xx-large;
    padding: 10px;
    margin-left: 10px;
+}
+
+.main {
+   display: grid;
+   grid-column: 2 / 3;
+   grid-row: 2;
 }
