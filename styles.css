@@ -2,6 +2,8 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: 0;
+    padding: 0;
  }
 
  .container {
@@ -30,8 +32,8 @@ body {
 }
 
 .header {   
-   grid-template-columns: 1fr 1fr;
-   grid-template-rows: 1fr 1fr;
+   height:fit-content;
+   margin-top: 2rem;
 }
 
 .searchbar {
@@ -61,7 +63,41 @@ body {
    margin-right: 10rem;
 }
 
-.profile-top
+.profile-pic,
+.profile-pic-bottom
 {
    border-radius: 9999px;
+}
+
+#profilepic {
+   margin-left: 2rem;
+}
+
+.header-bottom {
+   display: grid;
+   grid-template-columns: 3fr 1fr;
+}
+
+.profile-pic-bottom {
+   vertical-align: middle;
+   margin-left: 2rem;
+}
+
+.text-group {
+   display: inline-block;
+}
+
+.header-buttons {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   margin-top: 4rem;
+}
+
+.header-button {
+   border-radius: 9999px;
+   background-color: lightblue;
+   border: none;
+   font-size: xx-large;
+   padding: 10px;
+   margin-left: 10px;
 }
