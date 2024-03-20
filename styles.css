@@ -67,7 +67,6 @@ body {
 
  .header-buttons {
   grid-column: 2;
-
  }
 
  .hbutton {
@@ -103,4 +102,86 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+ }
+
+ .main-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #F9F9F9;
+  grid-template-rows: 4rem 1fr;
+  padding-left: 1rem;
+ }
+
+ .content {
+  grid-column: 1 / 2;
+  grid: repeat(2, 1fr) / repeat(2, 1fr);
+  display: grid;
+  gap:2rem;
+ }
+
+ .card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-left: maroon;
+  border-left-width: 6px;
+  border-left-style: solid;
+  border-radius: 10px;
+ }
+
+ .cbutn {
+  height: 2rem;
+  padding-right: 1rem;
+ }
+
+ .card-buttons {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: right;
+ }
+
+ .other-content{
+  margin-left: 3rem;
+ }
+
+ .other-content-top {
+  align-items: start;
+ }
+
+ .announcements {
+  background: white;
+  padding: 20px;
+  width: 80%;
+  border-radius: 20px;
+ }
+
+ .announce-card {
+  border-bottom: 1px solid gray;
+  font-size: small;
+ }
+
+ .trending {
+  background-color: white;
+  width: 80%;
+  border-radius: 20px;
+  padding: 10px;
+ }
+
+ .trend-profile {
+  height: 4rem;
+  border-radius: 9999px;
+ }
+
+ .trending {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .trend-card {
+  display: flex;
+  padding-top: 1rem;
+ }
+
+ .trending-name {
+  padding-left: 1rem;
  }
