@@ -26,3 +26,16 @@
    background-color: lightgray;
    border: 0px;
  }
+
+ .bell-icon {
+   padding-left: 20rem;
+   padding-right: 10rem;
+ }
+
+ .profile-small {
+   border-radius: 25px;
+ }
+
+ .profile-small-name {
+   font-weight: bold;
+ }
