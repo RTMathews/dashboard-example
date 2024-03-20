@@ -11,9 +11,17 @@
 
  .sidebar {
    display: grid;
+   background-color: lightblue;
+   gap: 1rem;
  }
 
  .dashboard-logo,
  .dashboard{
    display: inline-block;
+   font-weight: bolder;
+   font-size: large;
  }
+
+.db-button {
+   margin-top: 1rem;
+}
